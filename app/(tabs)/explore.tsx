@@ -68,7 +68,7 @@ export default function HomeScreen() {
 
       <View>
       <TouchableOpacity
-          onPress={() => openUrl('instagram://user?username=https://www.instagram.com/yasminberner/')}
+          onPress={() => openUrl('https://www.instagram.com/yasminberner')}
           style={styles.button}
         >
           <Text style={styles.buttonText}>Instagram</Text>

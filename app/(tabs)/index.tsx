@@ -12,7 +12,7 @@ export default function TabTwoScreen() {
       headerBackgroundColor={{ light: '#FFFAFA', dark: '#4169E1' }}
       headerImage={
 
-        <Image source={require('@/assets/images/oioi.jpeg')}
+        <Image source={require('@/assets/images/img1.jpg')}
         style={styles.headerImage}
         />
 
@@ -23,12 +23,17 @@ export default function TabTwoScreen() {
         
 
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Bem Vindo ! </ThemedText>
+        <ThemedText type="title">            BEM-VINDO 💘 </ThemedText>
         
         </ThemedView>
       
       <View style={{alignItems: "center", justifyContent: "center"}}>
-        <Text style={styles.txt}> - Venha conferir o meu trabalho como desenvolvedor web.</Text>
+        
+        <Text style={styles.txt}>É um prazer receber você aqui! Este é o lugar onde histórias ganham vida, onde risadas ecoam e onde novas amizades florescem. No Nosso Cantinho, cada perfil é como um pedacinho de um quebra-cabeça colorido, contribuindo para tornar este espaço único e acolhedor.
+Prepare-se para compartilhar suas paixões, descobrir novas inspirações e conectar-se com pessoas que compartilham seus interesses. Este é o lugar perfeito para ser você mesmo, sem filtros, sem reservas.
+Então, fique à vontade para explorar, criar laços e celebrar a diversidade que nos une. Estamos emocionados para ver as histórias que você vai contar e os momentos especiais que você vai compartilhar conosco.  💙🐚
+ </Text>
+
       </View>
 
         {Platform.select({
@@ -45,20 +50,19 @@ export default function TabTwoScreen() {
 
 const styles = StyleSheet.create({
   headerImage: {
-    width: 395,
+    width: 490,
     height: 250,
     resizeMode: "cover",
     position: 'absolute',
   },
   titleContainer: {
     flexDirection: 'row',
-    gap: 8,
+    gap: 3,
   },
   txt: {
-    fontSize: 20,
+    fontSize: 17,
     color: '#000',
     textAlign: "center",
-    fontWeight: 'bold',
     marginTop: -5,
     alignItems: "center"
   }
