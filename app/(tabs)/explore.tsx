@@ -58,8 +58,8 @@ export default function HomeScreen() {
           </View>
         </View>
 
-      <Text style={styles.title}></Text>  
-          <Text style={styles.texto}></Text>
+      <Text style={styles.title}>YASMIN BERNER </Text>  
+          <Text style={styles.texto}>Estudante 💖 </Text>
           
           
 
@@ -86,7 +86,7 @@ export default function HomeScreen() {
 
       <View>
       <TouchableOpacity
-          onPress={() => openUrl('')}
+          onPress={() => openUrl('https://www.linkedin.com/in/yasmin-berner-52bb06314/')}
           style={styles.button}
         >
           <Text style={styles.buttonText}>Linkedin</Text>
@@ -121,15 +121,15 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   perfil: {
-    borderRadius: 10,
-    width: 22,
-    height: 22,
+    borderRadius: 2,
+    width: 25,
+    height: 25,
     alignItems: 'center',
     justifyContent: 'center',
 
   },
   profileImage: {
-    width: 395,
+    width: 430,
     height: 250,
     resizeMode: "cover",
     position: 'absolute'
@@ -145,12 +145,12 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#fff',
+    color: '#000',
     textAlign: "center",
   },
   texto: {
     fontSize: 20,
-    color: '#fff',
+    color: '#000',
     textAlign: "center",
     fontWeight: 'bold',
     marginTop: -5
@@ -162,10 +162,11 @@ const styles = StyleSheet.create({
     marginTop: 20,
   },
   button: {
-    backgroundColor: 'white',
+    backgroundColor: '#ADD8E6',
     paddingVertical: 20,
     paddingHorizontal: 70,
     borderRadius: 8,
+    margin: 6,
   },
   buttonText: {
     color: '#000',
